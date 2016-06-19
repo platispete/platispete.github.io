@@ -11,7 +11,7 @@ title                    : "Cornering Electrons"
 title_separator          : "|"
 name                     : "Panagiotis Platis"
 description              : "Falling of the edge of the trace."
-#url                      : "https://platispete.github.io"  # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://platispete.github.io"  # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : "teaser.png" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
