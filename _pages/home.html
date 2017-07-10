@@ -1,11 +1,12 @@
 ---
-layout: splash
+layout: archive
+title: "Portfolio"
 permalink: /
-date:
-header:
-  overlay_filter: 0.5
-  overlay_image: post-bg-06.jpg
-  caption: "The goose"
-excerpt: 'My goose is getting coocked.'
+author_profile: true
 ---
 
+<div class="grid__wrapper">
+  {% for post in site.portfolio %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+</div>
