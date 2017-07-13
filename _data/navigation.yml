@@ -1,10 +1,17 @@
 # main links links
 main:
   - title: "Posts"
-    url: /year-archive/
+    url: /subject/
 
-  - title: "Categories"
-    url: /categories/
+  - title: "About"
+    url: /about/
 
-  - title: "Tags"
-    url: /tags/
+posts:
+    - title: Sort post by
+      children:
+          - title: "Subject"
+            url: /subject/
+          - title: "Tags"
+            url: /tags/
+          - title: "Year"
+            url: /year-archive/
